@@ -86,11 +86,11 @@ Diferentemente no `OU` onde tendo **apenas 1 premissa verdadeira** fará toda a 
 Agora vou lhe dar um exemplo com código:
 
 ```js
-var idade = 19;
-var sexo = 'M';
+let idade = 19
+let sexo = 'M'
 // && = E
-if(idade >= 18 && sexo === 'M') {
-  alert('Homem maior de idade');
+if( idade >= 18 && sexo === 'M' ) {
+  alert( `Homem maior de idade` )
 }
 ```
 
@@ -99,11 +99,11 @@ No `if`(se) testamos se a idade é maior ou igual a 18, `idade >= 18`, E se o se
 Então imagine que você não conhece lógica e fez assim:
 
 ```js
-var idade = 19;
-var sexo = 'M';
+let idade = 19
+let sexo = 'M'
 // || = OU
-if(idade >= 18 || sexo === 'M') {
-  alert('Homem maior de idade');
+if( idade >= 18 || sexo === 'M' ) {
+  alert( `Homem maior de idade` )
 }
 ```
 
@@ -113,11 +113,11 @@ Então! A lógica te faz criar expressões onde você pode analisar o valor de c
 
 
 ```js
-var idade = 19;
-var sexo = 'M';
+let idade = 19
+let sexo = 'M'
 // || = OU
-if(idade >= 18 && (sexo === 'M' || sexo === 'F')) {
-  alert('Pessoa maior de idade');
+if( idade >= 18 && ( sexo === 'M' || sexo === 'F' ) ) {
+  alert( `Pessoa maior de idade` )
 }
 ```
 
